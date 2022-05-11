@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design-Easy Tutorials</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="eduford_img/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-close" style="font-size:24px" onclick="hidemenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="courses.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        
+        <i class="fa fa-bars" style="font-size:24px" onclick="showmenu()"></i>
+    </nav>
+    <h1>Contact Us</h1>
+</section>
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59619.50380488347!2d72.91031514161992!3d20.943719127229127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be0f795909b2c77%3A0x1494cfa5f558f3dd!2sNavsari%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1641633217711!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</section>
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div><i class="fa fa-home" style="font-size:24px"></i>
+                <span><h5>XYZ road,ABC building</h5>
+                <p>Banglore,Karnataka</p></span>
+
+            
+        </div>
+        <div><i class="fa fa-phone" style="font-size:24px"></i>
+            <span><h5>92839020090</h5>
+            <p>Monday to Saturday,10:am to 5:pm</p></span>
+
+        </div>
+        <div><i class="fa fa-envelope-o" style="font-size:24px"></i>
+            <span><h5>info@easytutorials.com</h5>
+            <p>Email us your query</p></span>
+
+        </div>
+    </div>
+    <div class="contact-col">
+        <form action="input.php" method="post">
+            <input type="text" name="name" placeholder="Enter your Name" required>
+            <input type="email" name="email" placeholder="Enter your Email Address" required>
+            <input type="text" name="Subject" placeholder="Enter your Subject" required>
+            <textarea rows="8" name="message" placeholder="Message" required></textarea>
+            <button type="submit" name="submit" class="hero-btn red-btn">Send Message</button>
+        </form>
+    </div>
+</div>
+</section>
+<section class="footer">
+    <h4>ABOUT US</h4>
+    <p>Lorem ipsum dolor sit amet. Sit expedita laboriosam et ipsa recusandae quo sunt dicta et deserunt impedit qui recusandae soluta qui omnis voluptatibus ad molestiae impedit. Sit minus molestiae quo galisum labore in sint nostrum aut possimus sequi vel suscipit libero et dolor ullam. Et nihil vero ea provident eligendi est numquam voluptatem.</p>
+    <div class="icons">
+        <i class="fa fa-facebook" style="font-size:24px"></i>
+        <i class="fa fa-twitter" style="font-size:24px"></i>
+        <i class="fa fa-instagram" style="font-size:24px"></i>
+        <i class="fa fa-linkedin" style="font-size:24px"></i>  
+    </div>
+    <p>Made with <i class="fa fa-heart-o" style="font-size:14px"></i> by easytutorials</p>
+</section>
+
+<script>
+    var navLinks=document.getElementById("navLinks");
+    function showmenu(){
+        navLinks.style.right="0";
+    }
+    function hidemenu(){
+        navLinks.style.right="-200px";
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design-Easy Tutorials</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="eduford_img/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-close" style="font-size:24px" onclick="hidemenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="courses.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        
+        <i class="fa fa-bars" style="font-size:24px" onclick="showmenu()"></i>
+    </nav>
+    <h1>Our Certificates and Online Programs for 2021</h1>
+</section>
+
+
+<section class="footer">
+    <h4>ABOUT US</h4>
+    <p>Lorem ipsum dolor sit amet. Sit expedita laboriosam et ipsa recusandae quo sunt dicta et deserunt impedit qui recusandae soluta qui omnis voluptatibus ad molestiae impedit. Sit minus molestiae quo galisum labore in sint nostrum aut possimus sequi vel suscipit libero et dolor ullam. Et nihil vero ea provident eligendi est numquam voluptatem.</p>
+    <div class="icons">
+        <i class="fa fa-facebook" style="font-size:24px"></i>
+        <i class="fa fa-twitter" style="font-size:24px"></i>
+        <i class="fa fa-instagram" style="font-size:24px"></i>
+        <i class="fa fa-linkedin" style="font-size:24px"></i>  
+    </div>
+    <p>Made with <i class="fa fa-heart-o" style="font-size:14px"></i> by easytutorials</p>
+</section>
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+        <img src="eduford_img/certificate.jpg">
+        <h2>Our Certificates and Online Programs for 2021</h2>
+    <p>Lorem ipsum dolor sit amet. Id incidunt magnam nam natus placeat vel enim consequatur et magni voluptatum ut voluptas incidunt et debitis dolores est laboriosam ipsum.<br> Aut soluta voluptas At aspernatur commodi hic quia rerum ut quia ipsum. <br>Ut repudiandae dolorem est fugit sunt quo ipsa nostrum ut consequuntur rerum.
+
+        <br>Rem voluptatem quia et aliquid natus ab inventore officia est ducimus quam ut modi culpa! Exercitationem facilis et voluptatem nemo cum quasi voluptas ut iure alias qui totam similique et dignissimos quos sit omnis vitae. <br>Et rerum iste ut deleniti dolores qui nobis galisum! Id commodi consequatur eum autem commodi qui perspiciatis perferendis et autem harum et provident quam est dolorem omnis.
+        
+        <br>Est corporis nemo et expedita nihil id mollitia internos. <br>Eum nihil exercitationem ad aliquid reprehenderit sit voluptates dicta aut libero ipsam. <br>Ex temporibus nihil id repellat voluptatibus et rerum aliquid</p>
+        <div class="comment-box">
+            <h3>Leave a comment</h3>
+            <form class="comment-form">
+                <input type="text" placeholder="Enter Name">
+                <input type="email" placeholder="Enter Email">
+                <textarea rows="5" placeholder="Your comment"></textarea>
+                <button type="submit" class="hero-btn red-btn">POST A COMMENT</button>
+            </form>
+    </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+            <span>Business Analytics</span>
+            <span>21</span></div>
+            <div>
+                <span>Data Science</span>
+                <span>28</span></div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>15</span></div>
+                    <div>
+                        <span>Computer Science</span>
+                        <span>34</span></div>
+        
+    </div>
+</section>
+<script>
+    var navLinks=document.getElementById("navLinks");
+    function showmenu(){
+        navLinks.style.right="0";
+    }
+    function hidemenu(){
+        navLinks.style.right="-200px";
+    }
+</script>
+</body>
+</html>
